@@ -1,0 +1,135 @@
+/* 
+    Created on : 28-Jun-2014, 14:36:56
+    Description: The main CSS for surrounding the IFC or Blender Viewer
+    Author     : SaaSify Ltd.
+*/
+
+/* ------------------------------------
+    Set up a font for the Simple Site
+    Check out www.google.com/fonts for 
+    examples of all kinds of fonts...
+--------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+/* ------------------------------------
+    We will ensure there are no margins
+    or padding set from the outset ...
+--------------------------------------- */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* ------------------------------------
+    And to create a major contrast we'll
+    use the font we loaded above set a 
+    background color for the whole page
+    of red, a margin to generate a border 
+    effect, a font color black and no
+    overflow (scrolling up and down, left
+    or right) ...
+--------------------------------------- */
+
+body {
+    background-color: #999999;
+    color:#000;
+    font-family: 'Cabin', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #3333ff;
+}
+
+/* -------------------------------------
+    The main container 
+---------------------------------------- */
+
+.mainContainer {
+    position: relative;
+    float: left;
+    top: 0;
+    background-color: #fff;
+} 
+
+/* -------------------------------------
+    The heading section
+---------------------------------------- */
+
+.mainHeader {
+    position: relative;
+    float: left;
+    top: 0;
+    background-color: #333333;
+    color: #fff;
+}
+
+.mainTitle {
+    position: absolute;
+}
+
+.logoImage {
+    position: relative;
+    float: right;
+}
+
+/* -------------------------------------
+    The menu section
+---------------------------------------- */
+
+.mainMenu {
+    position: relative;
+    float: left;
+    background-color: #000;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* -------------------------------------
+    The menu section
+---------------------------------------- */
+
+.mainView {
+    position: relative;
+    float: left;
+    background-color: #cccccc;
+}
+
+canvas {
+    position: relative;
+    float: left;
+    top: 0;
+    background-color: #fff;
+} 
+
+
+/* -------------------------------------
+    The footer section
+---------------------------------------- */
+
+.mainFooter {
+    position: relative;
+    float: left;
+    background-color: #333333;
+    font-size: 0.6em;
+    color: #fff;
+}
+
+.mainCopyright {
+    position: relative;
+    float: left;
+}
+
+.mainContactInfo {
+    position: relative;
+    float: right;
+}
